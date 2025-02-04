@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" rel="stylesheet">
+  <title>Exercise 7</title>
+</head>
+
+<body>
+
+  <form id="form">
+    <label for="target">Enter your address:</label><br>
+    <input type="text" name="address" id="target"></input>
+    <input type="submit" value="Enter"></input>
+  </form>
+
+  <div id="map" style="width:100%; height:600px"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+  <script src="Polyline.encoded.js"></script>
+  <script src="file.js"></script>
+
+  <div id="target-output"></div>
+</body>
+
+</html>
